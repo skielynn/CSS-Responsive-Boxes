@@ -1,3 +1,110 @@
 body {
   background: papayawhip;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  background-color: lightblue;
+  border: 1px solid #000;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.a {
+  border: 2px solid black; 
+  background-color: lightblue; 
+  padding: 10px; 
+  min-width: 90%; 
+  min-height: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.b {
+  border: 2px solid black; 
+  background-color: lightgreen; 
+  padding: 10px; 
+  width: 70%; 
+  box-sizing: border-box; 
+  min-height: 250px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px 20px 20px 60px;
+  border-radius: 10px;
+}
+
+.c {
+  border: 2px solid black; 
+  background-color: rgb(238, 144, 208); 
+  padding: 10px; 
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 5px 5px 5px 60px;
+  border-radius: 10px;
+}
+
+.d {
+  border: 2px solid black; 
+  background-color: rgb(225, 138, 87); 
+  padding: 10px; 
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+}
+
+.e {
+  border: 2px solid black; 
+  background-color: rgb(195, 103, 103); 
+  padding: 10px; 
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+}
+
+.f {
+  border: 2px solid black;
+  background-color: rgb(103, 155, 195);
+  padding: 10px;
+  width: 20%; 
+  box-sizing: border-box;
+  min-height: 465px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 20px 20px 20px 30px; 
+  border-radius: 10px;
+  position: relative;
+  top: -300px; 
+}
+
+.c, .d, .e {
+  height: 200px; 
+  width: 22%; 
 }
